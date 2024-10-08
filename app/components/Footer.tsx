@@ -11,15 +11,15 @@ const Footer = () => {
   return (
 		<div className="bg-black text-white py-[50px]">
 			<div className="container mx-auto max-w-[1112px] pt-[65px] px-[40px]">
-				<span className="flex justify-between mb-5">
-					<span>
+				<span className="flex flex-col gap-8 justify-center align-center md:flex-row md:justify-between mb-12 md:mb-5">
+					<span className="flex align-center justify-center text-center">
 						<img
 							src="/shared/desktop/logo-light.png"
 							className="max-h-[27px]"
 						/>
 					</span>
-					<span>
-						<ul className="text-[14px] uppercase flex gap-6">
+					<span className="flex justify-center">
+						<ul className="text-[14px] uppercase flex gap-6 flex-col text-center md:text-left md:flex-row">
 							<li>
 								<a href="#">Our Company</a>
 							</li>
@@ -32,20 +32,20 @@ const Footer = () => {
 						</ul>
 					</span>
 				</span>
-				<span className="w-full mx-auto border-t-2 h-2"></span>
-				<span className="flex justify-between mb-5">
-					<span>
-						<p className="bold">Designo Central Office</p>
+				<span className="flex w-full mx-auto border-[#333234] border-t-[1px] h-[1px] mt-[40px] mb-[40px]"></span>
+				<span className="flex flex-col gap-8 text-center md:text-left md:flex-row md:justify-between mb-5 ">
+					<span className="text-[#8e8d8e] text-[16px]">
+						<p className="font-bold">Designo Central Office</p>
 						<p>3886 Wellington Street</p>
 						<p>Toronto, Ontario M9C 3J5</p>
 					</span>
-					<span>
-						<p className="bold">Contact Us (Central Office)</p>
-						<p className="bold">P: +1 253-863-8967</p>
-						<p className="bold">M: contact@designo.com</p>
+					<span className="text-[#8e8d8e] text-[16px]">
+						<p className="font-bold">Contact Us (Central Office)</p>
+						<p className="font-bold">P: +1 253-863-8967</p>
+						<p className="font-bold">M: contact@designo.com</p>
 					</span>
-					<span className="">
-						<ul className="text-[28px] uppercase flex text-[#e7816b] gap-2">
+					<span>
+						<ul className="text-[28px] uppercase justify-center flex text-[#e7816b] gap-2">
 							<li>
 								<a href="#">
 									<AiFillFacebook />
