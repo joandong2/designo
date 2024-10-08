@@ -7,7 +7,7 @@ const Header = () => {
 				<img src="/shared/desktop/logo-dark.png" className="max-h-[27px]"/>
 			</span>
 			<span>
-				<ul>
+				<ul className="uppercase flex font-[14px] gap-5">
 					<li>
 						<a href="#">Our Company</a>
 					</li>
