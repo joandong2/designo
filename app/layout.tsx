@@ -22,8 +22,19 @@ export default function RootLayout({
 				<div className="container mx-auto max-w-[1112px]">
 					<Header />
 				</div>
-				<main className="container mx-auto max-w-[1112px] py-[30px] px-[20px]">
-					{children}
+				<main
+					className="bg-cover bg-center"
+					style={{
+						backgroundImage:
+							"url('/shared/desktop/bg-pattern-leaf.svg'), url('/shared/desktop/bg-pattern-leaf.svg')",
+						backgroundPosition: "left center, bottom right",
+						backgroundSize: "auto, auto",
+						backgroundRepeat: "no-repeat, no-repeat",
+					}}
+				>
+					<div className="container mx-auto max-w-[1112px] py-[30px] px-[20px]">
+						{children}
+					</div>
 				</main>
 				<Footer />
 			</body>

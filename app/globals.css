@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 body {
+  /* background: "url('/shared/desktop/bg-pattern-leaf.svg')";
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left center; */
   font-family: "Jost", sans-serif !important;
   font-optical-sizing: auto;
   font-weight: normal;
@@ -28,4 +32,20 @@ h3 {
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 5px;
+}
+
+.header-callback {
+  background-image: url('/shared/desktop/bg-pattern-call-to-action.svg');
+  background-color: #e7816b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-callback {
+  background-image: url('/shared/desktop/bg-pattern-call-to-action.svg');
+  background-color: #e7816b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

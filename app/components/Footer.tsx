@@ -11,6 +11,20 @@ const Footer = () => {
   return (
 		<div className="bg-black text-white py-[50px]">
 			<div className="container mx-auto max-w-[1112px] py-[30px] px-[20px]">
+				<div className="footer-callback mt-[-15rem] mb-[4rem] p-[40px] sm:p-[90px] sm:flex sm:mb text-center sm:text-left justify-between items-center align-center rounded-[15px]">
+					<span className="sm:w-[40%]">
+						<h2 className="mb-4">Let's talk about your project</h2>
+						<p className="mb-6">
+							Ready to take it to the next level? Contact us today and find out
+							how our expertise can help your business grow.
+						</p>
+					</span>
+					<span>
+						<span className="bg-white text-black px-4 py-2 rounded-md uppercase text-center cursor-pointer hover:opacity-90 hover:text-grey">
+							<>Get in touch</>
+						</span>
+					</span>
+				</div>
 				<span className="flex flex-col gap-8 justify-center align-center md:flex-row md:justify-between mb-12 md:mb-5">
 					<span className="flex align-center justify-center text-center">
 						<a href="/">
