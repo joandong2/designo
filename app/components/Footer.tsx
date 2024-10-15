@@ -11,15 +11,15 @@ const Footer = () => {
   return (
 		<div className="bg-black text-white py-[50px]">
 			<div className="container mx-auto max-w-[1112px] py-[30px] px-[20px]">
-				<div className="footer-callback mt-[-15rem] mb-[4rem] p-[40px] sm:p-[90px] sm:flex sm:mb text-center sm:text-left justify-between items-center align-center rounded-[15px]">
-					<span className="sm:w-[40%]">
+				<div className="footer-callback mt-[-10rem] mb-[4rem] p-[40px] sm:p-[90px] sm:flex text-center sm:text-left justify-between items-center align-center rounded-[15px]">
+					<span className="flex flex-1 flex-col">
 						<h2 className="mb-4">Let's talk about your project</h2>
 						<p className="mb-6">
 							Ready to take it to the next level? Contact us today and find out
 							how our expertise can help your business grow.
 						</p>
 					</span>
-					<span>
+					<span className="flex flex-1 justify-center align-center items-center">
 						<span className="bg-white text-black px-4 py-2 rounded-md uppercase text-center cursor-pointer hover:opacity-90 hover:text-grey">
 							<>Get in touch</>
 						</span>
