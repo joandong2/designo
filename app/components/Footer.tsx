@@ -10,24 +10,26 @@ import {
 const Footer = () => {
   return (
 		<div className="bg-black text-white py-[50px]">
-			<div className="container mx-auto max-w-[1112px] pt-[65px] px-[40px]">
+			<div className="container mx-auto max-w-[1112px] py-[30px] px-[20px]">
 				<span className="flex flex-col gap-8 justify-center align-center md:flex-row md:justify-between mb-12 md:mb-5">
 					<span className="flex align-center justify-center text-center">
-						<img
-							src="/shared/desktop/logo-light.png"
-							className="max-h-[27px]"
-						/>
+						<a href="/">
+							<img
+								src="/shared/desktop/logo-light.png"
+								className="max-h-[27px]"
+							/>
+						</a>
 					</span>
 					<span className="flex justify-center">
 						<ul className="text-[14px] uppercase flex gap-6 flex-col text-center md:text-left md:flex-row">
 							<li>
-								<a href="#">Our Company</a>
+								<a href="/company">Our Company</a>
 							</li>
 							<li>
-								<a href="#">Locations</a>
+								<a href="/locations">Locations</a>
 							</li>
 							<li>
-								<a href="#">Contact</a>
+								<a href="/contact">Contact</a>
 							</li>
 						</ul>
 					</span>
